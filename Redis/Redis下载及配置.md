@@ -45,3 +45,10 @@ redis-server.exe redis.windows.conf
 ```sh
 auth your_redis_password
 ```
+
+window 重启 redis
+
+```sh
+net stop Redis
+net start Redis
+```
